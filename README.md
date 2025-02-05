@@ -1,16 +1,45 @@
-# xpsmv4
+# xpsmv4 DEV Preview
 
-A new Flutter project.
+> [!CAUTION]
+> 정식 버전이 아닙니다. 불안정한 버전임을 이해하고 사용해보고 싶으신 분만 사용하는 것을 추천합니다.
 
-## Getting Started
+> [!WARNING]
+> 이 버전을 사용한다면 프로그램이 오작동 할 수 있다는 것을 인지하고 사용하는 것으로 간주합니다. 사용 중 프로그램이 예기치 않게 종료되거나 멈출 수 있습니다.
+>
+> 버그 혹은 제안 사항은 Issues 탭을 이용해 제보하시거나 로그인이 번거로우신 경우 카페 게시물중 가장 최근 XPSM 게시물 댓글에 남겨주시면 됩니다. 정말 사소한거라도 개발에 도움이 되니 많은 제안 부탁드립니다.
+>
+> 도움주신 분들 중 원하시는 분에 한하여 프로그램에 크레딧 닉네임을 넣어드리겠습니다. 
+>
+> 다운로드는 [여기](https://github.com/xponeone/xpsmv4/releases)에서 하실 수 있습니다.
 
-This project is a starting point for a Flutter application.
+개발자 프리뷰 버전인 만큼 윈도우만 개발하였습니다. 맥os 버전은 보안 문제 및 os단의 차이로 수정해야하는 부분이 꽤 있어서 정식 버전이 나올때 같이 나올 예정입니다.
 
-A few resources to get you started if this is your first Flutter project:
+## 설치시 주의사항
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+인스톨러가 제공되지 않습니다. 꼭 **전체 압축을 풀고** 사용하세요.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+최초 설치 후 엑스플레인 경로를 잡아줘야 합니다. 왼쪽 하단 설정에 들어가서 엑스플레인 경로를 설정해주세요.
+
+## TODO
+
+- [ ] 지도의 마커가 특정 개수가 넘어가면 일부만 표시되는 현상 수정
+- [ ] 검색시 버벅임 수정
+- [ ] 검색시 세부사항 ui 추가
+- [ ] 리스트 아이템 ui 변경(특히 공항, 라이브러리 목록)
+- [ ] 라이브러리 연동
+- [ ] 최초 실행시 기본 설정창
+- [ ] 오류 예외처리
+- [ ] 자동 업데이트 구형
+- [ ] 로그 구현
+- [ ] 설정 세분화
+- [ ] 언어 추가
+- [ ] 최적화
+- [ ] 크레딧
+
+\* 표시는 제보 받은 문제점입니다.
+
+## 삭제시 주의사항
+
+본 프로그램은 초기 로딩 이후 로딩 속도를 줄이기 위해 캐싱을 수행합니다.
+
+캐시 삭제를 하지 않아도 작동에 이상은 없으나 완전히 삭제하고 싶으신 분들은 설정에 들어가셔서 remove cache 버튼을 눌러주시면 됩니다.
